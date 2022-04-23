@@ -5,8 +5,6 @@ import { Form, Row, Col, Button } from "react-bootstrap";
 export const SearchForm = ({ getMovie }) => {
   const [search, setSearch] = useState({});
 
-
-
   const handelOnChange = (e) => {
     const { value } = e.target;
     setSearch(value);

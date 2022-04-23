@@ -20,6 +20,7 @@ function App() {
 
   const getMovie = async (search) => {
     const { data } = await fetchMovie(search);
+    console.log(data);
     setList(data);
   };
 

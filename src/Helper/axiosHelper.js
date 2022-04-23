@@ -1,4 +1,4 @@
-import axios, { Axios } from "axios";
+import axios from "axios";
 const apiUrl = "http://www.omdbapi.com/?apikey=c388f54&";
 
 export const fetchMovie = (title) => {
